@@ -22,7 +22,7 @@ public class Empleado {
     @Id
     //Con esto se genera automaticamente la llave primaria
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    Integer idEmpelado;
+    Integer idEmpleado;
     String nombre;
     String departamento;
     Double sueldo;
