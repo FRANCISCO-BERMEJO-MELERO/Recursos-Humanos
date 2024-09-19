@@ -7,11 +7,11 @@ import EditarEmpleado from "./empleados/editarEmpleado";
 import Footer from "./plantilla/footer";
 function App() {
   return (
-    <div className=" bg-gradient-to-r from-blue-400 to-purple-500">
+    <div className=" bg-gradient-to-r from-blue-400 to-purple-500 h-screen">
       <BrowserRouter>
         <Navegacion/>
-        <div className="container mx-auto px-4 py-8">
-          <div className="bg-white rounded-lg shadow-xl overflow-hidden">
+        <div className="container mx-auto px-4 py-8 h-full">
+          <div className="bg-white rounded-lg shadow-xl overflow-hidden h-full">
             <Routes>
               <Route exact path="/" element={<ListadoEmpleados/>} />
               <Route exact path="/agregar" element={<Agregarempleado/>}/>
