@@ -36,7 +36,7 @@ const EditarEmpleado = () => {
     }
 
     return (
-        <div className='container mx-auto px-4 py-8 bg-gradient-to-r from-blue-100 to-purple-100'>
+        <div className='container mx-auto px-4 py-8 '>
             <div className='text-center mb-10'>
                 <h3 className='text-5xl font-bold text-indigo-700 mb-4'>Editar Empleado</h3>
                 <p className='text-gray-600'>Modifique los datos del empleado</p>
